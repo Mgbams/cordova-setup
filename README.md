@@ -6,6 +6,7 @@
 * Installing Cordova to our created project
 * Installing Android Studio 
 * Migrating your native built app to cordova
+* Setting up your android phone
 
 ## Installing Cordova
 Firstly, create your project folder and open it in Vs Code, then
@@ -170,6 +171,17 @@ Note: After migrating your files, type
 $ npm install
 $ npm start
 ```
+### SETTING UP YOUR ANANDROID PHONE
+Note that the locations for this setup varies according to phones.
+Just try get the location of the build number of your phone. You
+can search your phone model on google to get location of its build number
+
+* settings > about phone > build number
+* Tap 7 times on build number to enter developer mode
+* Also click on developer options
+* activate usb debugging
+* Then connect your phone with usb cable to your laptop
+* Click the green play button at the top of Android studio to get connected 
 
 ENJOY THE DETAILED SETUP
 
